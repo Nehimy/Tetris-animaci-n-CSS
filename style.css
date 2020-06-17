@@ -1,0 +1,102 @@
+body{
+	background: #f2f2f2;
+  font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+  font-size: xx-large;
+  margin: 0px;
+}
+
+p{
+	font-size: large;
+	Margin-left: 100px;
+}
+
+.name {
+    background: linear-gradient(45deg, rgb(32, 114, 214) 0%, rgb(78, 140, 213) 100%);
+    border-bottom: 2px solid #e5e5e5;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 2em;
+    padding-left: 10px;
+}
+
+img{
+	height: 60px;
+}
+/*****************************/
+.Contendor{
+	width: 100%;
+	height: 100%;
+	position:  absolute;
+}
+
+.Col1-LineaContendor{
+	margin-left: auto;
+	margin-right: auto;
+	position:  absolute;
+	margin-top: -3px;
+	width: 20%;
+}
+
+.Linea{
+	width: 50px;
+	height: 50px;
+	background-color: #f4cf06;
+  border: 3px solid #000;
+  margin-top: -3px;
+
+}
+
+.Col2-Cuadrados{
+	margin-left: auto;
+	margin-right: auto;
+	position:  absolute;
+	margin-top: -3px;
+	width: 20%;
+}
+.Cuadradito{
+	width: 50px;
+	height: 50px;
+	background-color: #ff5cde;
+	border: 3px solid #000;
+	margin-top: -3px;
+}
+
+#cuadrado3{
+	margin-left: 53px;
+	position: absolute;
+	margin-top: -109px;
+}
+
+#cuadrado4{
+	margin-left: 53px;
+	position: absolute;
+	margin-top: -56px;
+}
+
+
+.Col3-TContendor1{
+	margin-left: auto;
+  margin-right: auto;
+  position:  absolute;
+  margin-top: -3px;
+  width: 20%;
+}
+
+.te{
+	width: 50px;
+	height: 50px;
+	background-color: #5cf406;
+	border: 3px solid #000;
+	margin-top: -3px;
+}
+
+#cuadradoCentral{
+	margin-left: 53px;
+	position: absolute;
+	margin-top: 50px;
+}
+
+
+
