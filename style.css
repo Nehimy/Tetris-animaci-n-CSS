@@ -5,11 +5,11 @@ body{
   margin: 0px;
 }
 
-p{
+/*p{
 	font-size: large;
 	Margin-left: 100px;
 }
-
+*/
 .name {
     background: linear-gradient(45deg, rgb(32, 114, 214) 0%, rgb(78, 140, 213) 100%);
     border-bottom: 2px solid #e5e5e5;
@@ -24,7 +24,26 @@ p{
 img{
 	height: 60px;
 }
-/*****************************/
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/*****************************************************************************/
 .Contendor{
 	width: 100%;
 	height: 100%;
@@ -34,17 +53,10 @@ img{
 	
 }
 
-.Col{
-
-	/*margin-left: auto;
-	margin-right: auto;
-	position:  absolute;
-	margin-top: -3px;
-	width: 20%;*/
-	
+.Col{	
 	display: inline-block;
 	text-align: center;
-	width: 20%;
+	width: 19%;
 	/*position: absolute;*/
 }
 
@@ -108,4 +120,13 @@ img{
 	margin-left: 53px;
 	position: absolute;
 	margin-top: -56px;
+}
+
+.Ele{
+	width: 50px;
+	height: 50px;
+	background-color: #06c7f4;
+  border: 3px solid #000;
+  margin-top: -3px;
+
 }

@@ -11,19 +11,17 @@
 /*
 *Caida vertical
 */
-
-let LiniaVertical = document.querySelector('.Col1-LineaContendor');
-let Te = document.querySelector('.Col3-TContendor1');
+/*
+let LiniaVertical = document.querySelector('.Col');
 let Y = 0;
 function movimiento(){
 	if(Y < 500){
-		Y = Y+ 5;
-		LiniaVertical.style.top = Y + 'px';
-		Te.style.top = Y + 'px';
+		Y = Y + 5;
+		LiniaVertical.style.marginTop = Y + 'px';
 		setTimeout(movimiento, 250);
 	}
 }
 setTimeout(movimiento,1000);
 
-
+*/
 
