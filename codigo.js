@@ -18,10 +18,9 @@ function movimiento(){
 	if(Y < 500){
 		Y = Y + 5;
 		LiniaVertical.style.marginTop = Y + 'px';
-		setTimeout(movimiento, 250);
+		setTimeout(movimiento, 20);
 	}
 }
-setTimeout(movimiento,1000);
+setTimeout(movimiento,100);
 
 */
-
