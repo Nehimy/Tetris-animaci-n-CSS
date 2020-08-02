@@ -1,26 +1,20 @@
-/* Valores númericos de teclas en Js
+//window.onclick = Sonido;
+let sound = false
+let audio 			= document.createElement('audio');
 
-  escape 	27 
-  left arrow 	37
-  up arrow 	38
-  right arrow 	39
-  down arrow 	40  
-  space 32 
-  
-*/
-/*
-*Caida vertical
-*/
-/*
-let LiniaVertical = document.querySelector('.Col');
-let Y = 0;
-function movimiento(){
-	if(Y < 500){
-		Y = Y + 5;
-		LiniaVertical.style.marginTop = Y + 'px';
-		setTimeout(movimiento, 20);
+function Sonido(){
+	if (sound) {
+	  audio.pause()
+	  document.getElementById('IconMusic1').src = "../icono/No_Music.svg"
+	} else {
+  	audio.loop 			= true;
+		audio.volume 		= 0.3
+		audio.autoplay 	= true;
+		audio.src 			= "../Sonido/Tetris_Soundtrack.wav"
+		audio.play()
+		document.getElementById('IconMusic1').src = "../icono/Si_Music.svg"
 	}
+	sound = !sound
 }
-setTimeout(movimiento,100);
 
-*/
+

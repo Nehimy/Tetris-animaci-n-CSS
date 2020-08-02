@@ -1,29 +1,17 @@
 body{
 	background: black;
-  font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
-  font-size: xx-large;
   margin: 0px;
 }
 
-/*p{
-	font-size: large;
-	Margin-left: 100px;
-}
-*/
-.name {
-    background: linear-gradient(45deg, rgb(32, 114, 214) 0%, rgb(78, 140, 213) 100%);
-    left: 0;
-    position: relative;
-    right: 0;
-    top: 0;
-    height: 2em;
-    padding-left: 10px;
-}
 
-img{
-	height: 60px;
+#IconMusic1{
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
 }
-
 
 /*****************************************************************************/
 .Contendor{
@@ -37,6 +25,11 @@ img{
 	margin: 0px;
 	font-size: 0px;
 	padding: 0px;
+}
+
+.ButtonStyle {
+  background-color: transparent;
+	border: transparent;
 }
 
 @keyframes slidein {
